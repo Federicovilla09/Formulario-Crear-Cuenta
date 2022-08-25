@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(./Privacy\ policy-rafiki.svg);
+}
+
+.form-registro h4{
+  font-family: 'Open Sans', sans-serif;
+  color: #0F3D3E;
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-registro{
+  width: 430px;
+  background-color: #256D85;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #1B2430;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+.controles{
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  border: 1px solid #1B2430;  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; 
+  cursor: pointer;
+}
+
+.controles:hover {
+  background-color: #94B49F;
+}
+
+.form-registro p{
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.form-registro a{
+  color: white;
+  text-decoration: none;
+}
+
+.form-registro a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.form-registro .boton{
+  width: 100%;
+  background-color: white;
+  border: none;
+  padding: 12px;
+  color: #0F3D3E;
+  margin: 16px 0;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.form-registro .boton:hover {
+  background-color: #94B49F;
+}
